@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.columnleft {
+  float: left;
+  width: 50%;
+  background-color: Orange;  
+}
+
+.columnright {
+  float: right;
+  width: 50%;
+  background-color: MediumSeaGreen;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
